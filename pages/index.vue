@@ -13,6 +13,11 @@
           Welcome to the Vuetify + Nuxt.js template
         </v-card-title>
         <v-card-text>
+
+          <v-btn
+          >
+            Okay
+          </v-btn>
           <p>Vuetify is a progressive Material Design component framework for Vue.js. It was designed to empower developers to create amazing applications.</p>
           <p>
             For more information on Vuetify, check out the <a
@@ -66,11 +71,16 @@
           >
             Nuxt GitHub
           </a>
+          <v-btn
+            nuxt
+            to="/inspire"
+          >
+            Continue
+          </v-btn>
         </v-card-text>
         <v-card-actions>
           <v-spacer />
           <v-btn
-            color="primary"
             nuxt
             to="/inspire"
           >
